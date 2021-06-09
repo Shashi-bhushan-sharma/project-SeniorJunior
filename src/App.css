@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c2c0c0;
+  opacity: 1; /* Firefox */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginpage{
+  width:100vw;
+  height:100vh;
+  background: black;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+ 
 }
+.logintext{
+  font-family: poppins ,sans-serif;
+  margin-top: 30px;
+  color:white;
+  padding-top: 30px;
+  margin:10px;
+  text-align: left;
+  width:50%;
+height:200px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  
+
+}
+.loginbox{
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #363636;
+  padding-top: 30px;
+  margin:10px;
+  width:50%;
+  height:200px;
+  
+}
+.logininput{
+  align-content: center;
+  background: #363636;
+  border:1px solid white;
+  border-radius: 20px;
   color: white;
+  margin:10px;
+  padding:5px;
+  width:40vw;
+  margin-left:25px;
+}
+.loginbutton{
+  color:black;
+  background:white;
+  border:1px solid white;
+  border-radius: 5px;
+  margin:10px;
+  padding:5px;
+  width:40vw;
+  margin-left:30px;
+}
+.loginbox p{
+  text-align: center;
+  color:white;
+  font-size: 7px;
+  font-family: poppins ,sans-serif;
+  text-decoration: underline;
+}
+.gotoregister{
+  margin-left:42%;
+  font-size: 7px;
+  border:1px solid white;
+  color:#c2c0c0;
+  background:#363636;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+.registerpage{
+  width:100vw;
+  height:100vh;
+  background: black;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+ 
+}
+.registertext{
+  font-family: poppins ,sans-serif;
+  margin-top: 30px;
+  color:white;
+  padding-top: 30px;
+  margin:10px;
+  text-align: left;
+  width:50%;
+height:200px;
+}
+.registerbox{
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #363636;
+  padding-top: 30px;
+  margin:10px;
+  width:50%;
+  height:220px;
+  
+  
+}
+.registerinput{
+  align-content: center;
+  background: #363636;
+  border:1px solid white;
+  border-radius: 20px;
+  color: white;
+  margin:5px;
+  padding:5px;
+  width:40vw;
+  margin-left:25px;
+}
+.registerbutton{
+  color:black;
+  background:white;
+  border:1px solid white;
+  border-radius: 5px;
+  margin:10px;
+  padding:5px;
+  width:40vw;
+  margin-left:32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
