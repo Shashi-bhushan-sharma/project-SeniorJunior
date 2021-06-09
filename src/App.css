@@ -1,27 +1,58 @@
 *{
   margin:0;
   padding:0;
+  overflow: auto;
+  font-family: poppins, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #c2c0c0;
+  padding-left: 30px ;
+  font-size: 20px;
+  padding-top: 2px;
   opacity: 1; /* Firefox */
 }
 .loginpage{
-  width:100vw;
-  height:100vh;
+ height: 100vh;
+ width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
   background: black;
   padding:20px;
   display:flex;
   justify-content:center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -40px;
  
+}
+input[type=text], select {
+  
+  padding-left: 20px;
+  font-size: 1rem;
+
+
+  
+  
+}
+input[type=password], select {
+  
+  padding-left: 20px;
+  font-size: 1rem;
+
+
+  
+  
 }
 .logintext{
   font-family: poppins ,sans-serif;
   margin-top: 30px;
   color:white;
-  padding-top: 30px;
+
   margin:10px;
   text-align: left;
+  font-size: 34px;
   width:50%;
 height:200px;
 
@@ -29,54 +60,65 @@ height:200px;
   
 
 }
+.logintext h5{
+  margin-top: -40px;
+
+}
 .loginbox{
   margin-top: 30px;
-  border-radius: 20px;
+  border-radius: 15px;
   background: #363636;
   padding-top: 30px;
   margin:10px;
-  width:50%;
-  height:200px;
+  width:691px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  height:492px;
+  margin-right: 70px;
   
 }
 .logininput{
   align-content: center;
   background: #363636;
   border:1px solid white;
-  border-radius: 20px;
+  border-radius: 34px;
   color: white;
-  margin:10px;
+  outline: none;
   padding:5px;
-  width:40vw;
+  width:548px;
+  height: 46px;
   margin-left:25px;
+}
+.logininput >input
+{
+  padding-left: 20px;
 }
 .loginbutton{
   color:black;
   background:white;
   border:1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
   border-radius: 5px;
   margin:10px;
   padding:5px;
-  width:40vw;
+  width:548px;
+  height: 56px;
   margin-left:30px;
+  transition: all 0.6s ease;
+  cursor: pointer;
 }
+
 .loginbox p{
   text-align: center;
   color:white;
   font-size: 7px;
   font-family: poppins ,sans-serif;
-  text-decoration: underline;
+  font-size: 1.3rem;
 }
-.gotoregister{
-  margin-left:42%;
-  font-size: 7px;
-  border:1px solid white;
-  color:#c2c0c0;
-  background:#363636;
-}
-
-
-
 
 
 

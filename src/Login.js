@@ -11,9 +11,9 @@ function Login(){
              <div class="loginbox">
                  
                  <input type="text" class="logininput" placeholder="Username"></input>
-                 <br></br><input type="text" class="logininput"placeholder="Password"></input>
+                 <br></br><input type="password" class="logininput"placeholder="Password"></input>
                  <br></br> <button type="submit" class="loginbutton">Login</button>
-                 <br></br> <button class="gotoregister">New here. Signup Now. </button>
+                 <br></br> <p class="gotoregister">New here. Signup Now. </p>
              </div>
         </div>
     );
